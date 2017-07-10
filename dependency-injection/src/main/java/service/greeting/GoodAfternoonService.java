@@ -1,5 +1,7 @@
 package service.greeting;
 
+import org.springframework.stereotype.Component;
+
 /*
  * This <pattern> created by : 
  * Name         : syafiq
@@ -7,6 +9,7 @@ package service.greeting;
  * Email        : syafiq.rezpector@gmail.com
  * Github       : syafiqq
  */
+@Component
 public class GoodAfternoonService implements GreetingService
 {
     @Override public String greet()
