@@ -6,7 +6,11 @@
 
     <context:component-scan base-package="service.greeting"/>
 
-    <bean id="bot2" class="bot.GreetingBot2">
+    <bean id="goodMorning" class="bot.GreetingBot2">
         <constructor-arg ref="goodMorningService"/>
+    </bean>
+
+    <bean id="goodAfternoon" class="bot.GreetingBot2">
+        <constructor-arg ref="goodAfternoonService"/>
     </bean>
 </beans>
