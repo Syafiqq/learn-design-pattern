@@ -16,4 +16,5 @@ dependencies {
     compile "org.springframework:spring-beans:$spring_version"
     compile "org.springframework:spring-context:$spring_version"
     compile "org.springframework:spring-test:$spring_version"
+    compile 'org.jetbrains:annotations:15.0'
 }
