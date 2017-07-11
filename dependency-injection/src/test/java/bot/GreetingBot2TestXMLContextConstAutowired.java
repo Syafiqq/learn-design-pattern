@@ -19,7 +19,7 @@ import service.greeting.GreetingService;
  */
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(locations = {"/context/Context.xml"})
-public class GreetingBot2TestXMLContext
+public class GreetingBot2TestXMLContextConstAutowired
 {
     @Qualifier(value = "goodMorning") @Autowired private
     GreetingBot2 bot3;

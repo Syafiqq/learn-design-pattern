@@ -20,7 +20,7 @@ import service.greeting.GreetingService;
  */
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(classes = {Context.class})
-public class GreetingBot2TestJavaContext
+public class GreetingBot2TestJavaContextConstAutowired
 {
     @Qualifier(value = "goodMorning") @Autowired private
     GreetingBot2 bot3;
